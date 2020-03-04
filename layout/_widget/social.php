@@ -34,7 +34,7 @@
     <a class="mdui-ripple" href="<?php $this->options->telegram(); ?>" target="_blank" mdui-tooltip="{content: 'Telegram'}" style="color:#27a7e5;background-color:rgba(39,167,229,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-telegram"></i> </a>
     <a class="mdui-ripple" href="<?php $this->options->twitter(); ?>" target="_blank" mdui-tooltip="{content: 'Twitter'}" style="color:#1da1f2;background-color:rgba(29,161,242,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-twitter"></i> </a>
     <a class="mdui-ripple" href="<?php $this->options->steam(); ?>" target="_blank" mdui-tooltip="{content: 'Steam'}" style="color:#0e47a1;background-color:rgba(14,71,161,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-steam"></i> </a>
-    <a class="mdui-ripple" href="JavaScript:void(0)" target="_blank" mdui-tooltip="{content: '<?php $this->options->game(); ?>'}" style="color:#3c57a4;background-color:rgba(60,87,164,.1)"><i class="nexmoefont icon-battlenet"></i> </a>
+    <a class="mdui-ripple" href="<?php $this->options->siteUrl(); ?>" target="_blank" mdui-tooltip="{content: '<?php $this->options->game(); ?>'}" style="color:#3c57a4;background-color:rgba(60,87,164,.1)"><i class="nexmoefont icon-battlenet"></i> </a>
     <a class="mdui-ripple" href="<?php $this->options->siteUrl(); ?>/feed" target="_blank" mdui-tooltip="{content: 'RSS'}" style="color:#f78422;background-color:rgba(247,132,34,.1)"><i class="nexmoefont icon-rss"></i></a>
    </div>
   </div> 
